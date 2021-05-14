@@ -56,7 +56,7 @@ c = input("What you wanna: ")
 
 if c in('1', '2'):
     i = int(input("Write how much u want: "))
-
+#not work
     if c == '1':
         x.top_up_balance(i)
         print(x.balance())
